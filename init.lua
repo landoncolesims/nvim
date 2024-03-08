@@ -397,7 +397,7 @@ require('lazy').setup {
       end, { desc = '[S]earch [N]eovim files' })
     end,
   },
-
+  --TODO need to add https://github.com/jlcrochet/vim-razor for razor highlighting
   { -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
     dependencies = {
@@ -723,7 +723,7 @@ require('lazy').setup {
     -- change the command in the config to whatever the name of that colorscheme is
     --
     -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`
-    'folke/tokyonight.nvim',
+    --'folke/tokyonight.nvim',
     'patstockwell/vim-monokai-tasty',
     lazy = false, -- make sure we load this during startup if it is your main colorscheme
     priority = 1000, -- make sure to load this before all the other start plugins
