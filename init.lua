@@ -398,6 +398,7 @@ require('lazy').setup {
     end,
   },
   --TODO need to add https://github.com/jlcrochet/vim-razor for razor highlighting
+  --TODO need to add https://github.com/OrangeT/vim-csharp?source=post_page-----fb7efc15a243--------------------------------
   { -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
     dependencies = {
